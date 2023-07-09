@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Erik Olsen",
+    "age": 32,
+    "gender": "Male",
+    "address": "Bergsveien 12, Oslo",
+    "email": "erik@example.com",
+    "phone": "+47 12345678"
+  },
+  {
+    "name": "Ingrid Larsen",
+    "age": 27,
+    "gender": "Female",
+    "address": "Fjordveien 8, Bergen",
+    "email": "ingrid@example.com",
+    "phone": "+47 87654321"
+  },
+  {
+    "name": "Marius Johansen",
+    "age": 41,
+    "gender": "Male",
+    "address": "Skogveien 15, Trondheim",
+    "email": "marius@example.com",
+    "phone": "+47 45678901"
+  },
+  {
+    "name": "Hanna Kristoffersen",
+    "age": 24,
+    "gender": "Female",
+    "address": "Strandgata 6, Stavanger",
+    "email": "hanna@example.com",
+    "phone": "+47 10987654"
+  },
+  {
+    "name": "Andreas Berg",
+    "age": 38,
+    "gender": "Male",
+    "address": "Nordre Gate 20, Kristiansand",
+    "email": "andreas@example.com",
+    "phone": "+47 98765432"
+  },
+  {
+    "name": "Lena Pedersen",
+    "age": 29,
+    "gender": "Female",
+    "address": "Kirkeveien 14, Tromsø",
+    "email": "lena@example.com",
+    "phone": "+47 54321098"
+  },
+  {
+    "name": "Jonas Hansen",
+    "age": 35,
+    "gender": "Male",
+    "address": "Løkkegata 9, Drammen",
+    "email": "jonas@example.com",
+    "phone": "+47 24681357"
+  },
+  {
+    "name": "Sara Andersen",
+    "age": 31,
+    "gender": "Female",
+    "address": "Vestregata 3, Ålesund",
+    "email": "sara@example.com",
+    "phone": "+47 13579246"
+  },
+  {
+    "name": "Oskar Nilsen",
+    "age": 26,
+    "gender": "Male",
+    "address": "Storgata 18, Sandnes",
+    "email": "oskar@example.com",
+    "phone": "+47 76852143"
+  },
+  {
+    "name": "Maria Jensen",
+    "age": 33,
+    "gender": "Female",
+    "address": "Torggata 7, Bergen",
+    "email": "maria@example.com",
+    "phone": "+47 21436587"
+  }
+]
