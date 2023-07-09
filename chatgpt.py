@@ -9,7 +9,7 @@ from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 
 
-
+os.environ['OPENAI_API_KEY'] = constants.APIKEY
 key = constants.APIKEY
 query = sys.argv[1]
 
