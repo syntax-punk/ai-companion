@@ -8,11 +8,21 @@ from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 load_dotenv()
 
-query = sys.argv[1]
-
 
 # loader = TextLoader('data.txt')
 loader = DirectoryLoader('./collection', glob='*.txt')
 index = VectorstoreIndexCreator().from_loaders([loader])
 
-print(index.query(query, llm=ChatOpenAI()))
+def start_chattin():
+  print("-> Yo this is your AI companion. Type 'exit' to quit.")
+  while True:
+    query = input("[you]: ").lower()
+    if query == 'exit':
+      break
+
+    response = index.query(query, llm=ChatOpenAI())
+    print("[ai]: " + response)
+
+
+if __name__ == '__main__':
+    start_chattin()
