@@ -78,5 +78,13 @@
     "address": "Torggata 7, Bergen",
     "email": "maria@example.com",
     "phone": "+47 21436587"
-  }
+  },
+  {
+    "name": "Laila Hansen",
+    "age": 35,
+    "gender": "Female",
+    "address": "Løkkegata 9, Drammen",
+    "email": "laila@example.com",
+    "phone": "+47 24681355"
+  },
 ]
