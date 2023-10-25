@@ -9,7 +9,6 @@ from langchain.chat_models import ChatOpenAI
 
 load_dotenv()
 
-# loader = TextLoader('data.txt')
 loader = DirectoryLoader('./collection', glob='*.txt')
 index = VectorstoreIndexCreator().from_loaders([loader])
 
