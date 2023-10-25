@@ -6,8 +6,8 @@ from langchain.document_loaders import DirectoryLoader
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
-load_dotenv()
 
+load_dotenv()
 
 # loader = TextLoader('data.txt')
 loader = DirectoryLoader('./collection', glob='*.txt')
