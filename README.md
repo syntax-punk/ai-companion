@@ -17,7 +17,7 @@ Read the [blog here](https://syntaxpunk.com/blog/ai-companion).
 - Now feel free asking questions about the data provided in the collection
 - Here is some example:
 
-```bash
+```text
 -> Yo this is your AI companion. Type 'exit' to quit.
 
 [you]: how many apples do I have?
